@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
 
     }
 
-    if (url === "/users"){ // BURAYA GET REQ ATILDDIĞI İÇİN BURADA BODY YOK.
+    if (url === "/users"){ // BURAYA GET REQ ATILDDIĞI İÇİN BURADA BODY YOK --> PARSE EDİLEYECEK.
         res.write("<html>");
         res.write("<body>");
         res.write("<ul>");
